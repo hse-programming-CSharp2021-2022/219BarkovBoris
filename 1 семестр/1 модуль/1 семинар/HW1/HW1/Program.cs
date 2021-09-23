@@ -6,7 +6,11 @@ namespace HW1
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            string n, f, o;
+            n = Console.ReadLine();
+            f = Console.ReadLine();
+            o = Console.ReadLine();
+            Console.WriteLine($"Имя: {n}\nФамилия: {f}\nОтчество: {o}");
         }
     }
 }
