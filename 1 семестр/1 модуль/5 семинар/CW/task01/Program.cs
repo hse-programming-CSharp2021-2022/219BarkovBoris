@@ -45,7 +45,8 @@ namespace CW
                         if (tmp % 10 != 0)
                         {
                             new_x = new_x * 10 + (tmp % 10);
-                        } else
+                        }
+                        else
                         {
                             zero++;
                         }
@@ -58,7 +59,7 @@ namespace CW
                 }
                 x = new_x;
             }
-           
+
 
             Console.WriteLine(ans);
 
